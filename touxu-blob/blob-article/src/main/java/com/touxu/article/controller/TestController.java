@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/")
     public String test(){
+        System.out.println("郭冰洁是个大蠢猪");
         return "hello world";
     }
 }
